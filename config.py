@@ -1,8 +1,8 @@
 import torch
 
 debug = True
-image_path = "C:/Moein/AI/Datasets/Flicker-8k/Images"
-captions_path = "C:/Moein/AI/Datasets/Flicker-8k"
+image_path = "/data/flickr-30k-dataset/flickr30k_images/flickr30k_images"
+captions_path = "."
 batch_size = 8
 num_workers = 0
 lr = 1e-3
@@ -30,3 +30,4 @@ size = 224
 num_projection_layers = 1
 projection_dim = 256 
 dropout = 0.1
+
